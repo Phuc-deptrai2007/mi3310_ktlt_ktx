@@ -1,0 +1,80 @@
+[
+  {
+    "facility_id": "TB001",
+    "room_number": "P101",
+    "facility_name": "Dieu hoa",
+    "brand": "Daikin",
+    "install_date": "2022-01-15",
+    "status": "Binh thuong",
+    "repair_history": []
+  },
+  {
+    "facility_id": "TB002",
+    "room_number": "P101",
+    "facility_name": "Binh nong lanh",
+    "brand": "Ariston",
+    "install_date": "2022-01-15",
+    "status": "Dang cho sua",
+    "repair_history": [
+      {
+        "report_date": "2026-05-20",
+        "reported_by": "SV001",
+        "description": "Khong len nuoc nong",
+        "repair_status": "Dang cho",
+        "repair_date": null
+      }
+    ]
+  },
+  {
+    "facility_id": "TB003",
+    "room_number": "P201",
+    "facility_name": "Giuong tang",
+    "brand": "Noi that KTX",
+    "install_date": "2021-08-01",
+    "status": "Binh thuong",
+    "repair_history": []
+  },
+  {
+    "facility_id": "TB004",
+    "room_number": "P201",
+    "facility_name": "Quat tran",
+    "brand": "Panasonic",
+    "install_date": "2022-03-10",
+    "status": "Binh thuong",
+    "repair_history": []
+  },
+  {
+    "facility_id": "TB005",
+    "room_number": "P102",
+    "facility_name": "Dieu hoa",
+    "brand": "LG",
+    "install_date": "2023-05-20",
+    "status": "Da sua xong",
+    "repair_history": [
+      {
+        "report_date": "2026-04-12",
+        "reported_by": "SV006",
+        "description": "Keu to",
+        "repair_status": "Da sua xong",
+        "repair_date": "2026-04-15"
+      }
+    ]
+  },
+  {
+    "facility_id": "TB006",
+    "room_number": "P201",
+    "facility_name": "Dieu hoa",
+    "brand": "Chua ro",
+    "install_date": "Chua ro",
+    "status": "Dang cho sua",
+    "repair_history": [
+      {
+        "report_date": "2026-06-19",
+        "reported_by": "SV002",
+        "description": "Khong thay mat",
+        "repair_status": "Dang cho",
+        "repair_date": null
+      }
+    ]
+  }
+]

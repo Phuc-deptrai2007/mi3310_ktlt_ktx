@@ -1,0 +1,108 @@
+[
+  {
+    "room_number": "P101",
+    "floor": 1,
+    "building": "A",
+    "gender": "Nam",
+    "room_type": "Thuong",
+    "max_beds": 4,
+    "current_students": [
+      "SV001",
+      "SV003",
+      "SV005"
+    ],
+    "available_beds": 1,
+    "room_price": 400000,
+    "status": "Dang hoat dong"
+  },
+  {
+    "room_number": "P102",
+    "floor": 1,
+    "building": "A",
+    "gender": "Nam",
+    "room_type": "Thuong",
+    "max_beds": 4,
+    "current_students": [
+      "SV006"
+    ],
+    "available_beds": 3,
+    "room_price": 400000,
+    "status": "Dang hoat dong"
+  },
+  {
+    "room_number": "P201",
+    "floor": 2,
+    "building": "A",
+    "gender": "Nu",
+    "room_type": "Dich vu",
+    "max_beds": 2,
+    "current_students": [
+      "SV002",
+      "SV004"
+    ],
+    "available_beds": 0,
+    "room_price": 700000,
+    "status": "Dang hoat dong"
+  },
+  {
+    "room_number": "P202",
+    "floor": 2,
+    "building": "A",
+    "gender": "Nu",
+    "room_type": "Thuong",
+    "max_beds": 4,
+    "current_students": [
+      "SV007",
+      "SV008"
+    ],
+    "available_beds": 2,
+    "room_price": 450000,
+    "status": "Dang hoat dong"
+  },
+  {
+    "room_number": "P301",
+    "floor": 3,
+    "building": "B",
+    "gender": "Nam",
+    "room_type": "Dich vu",
+    "max_beds": 2,
+    "current_students": [
+      "SV009"
+    ],
+    "available_beds": 1,
+    "room_price": 800000,
+    "status": "Dang hoat dong"
+  },
+  {
+    "room_number": "P302",
+    "floor": 3,
+    "building": "B",
+    "gender": "Nu",
+    "room_type": "Dich vu",
+    "max_beds": 2,
+    "current_students": [],
+    "available_beds": 2,
+    "room_price": 800000,
+    "status": "Dang hoat dong"
+  },
+  {
+    "room_number": "P333",
+    "gender": "Nam",
+    "room_type": "Thuong",
+    "building": "P",
+    "max_beds": 6,
+    "available_beds": 6,
+    "room_price": 1000000.0,
+    "current_students": []
+  },
+  {
+    "room_number": "P666",
+    "gender": "Nam",
+    "room_type": "Thuong",
+    "building": "P",
+    "max_beds": 6,
+    "available_beds": 6,
+    "room_price": 600000.0,
+    "current_students": []
+  }
+]
