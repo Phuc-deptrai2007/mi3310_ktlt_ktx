@@ -1,0 +1,57 @@
+Hệ thống Quản lý Ký túc xá — MI3310 KTLT
+
+> Đồ án môn Kỹ thuật lập trình · Nhóm 12 · Viện Toán Ứng dụng và Tin học · ĐH Bách khoa Hà Nội
+
+## Giới thiệu
+
+Phần mềm quản lý vận hành nội bộ ký túc xá chạy trên giao diện dòng lệnh (CLI), xây dựng bằng Python 3. Hệ thống tự động hóa các nghiệp vụ cốt lõi: quản lý hồ sơ sinh viên, phân bổ phòng theo quy tắc giới tính và sức chứa, lập hóa đơn dịch vụ hàng tháng, theo dõi cơ sở vật chất và xuất báo cáo thống kê.
+
+## Tính năng chính
+
+- **Quản lý sinh viên** — Thêm, sửa, xóa hồ sơ; tự động giải phóng chỗ phòng khi xóa sinh viên.
+- **Quản lý phòng ở** — Xếp phòng và chuyển phòng với ràng buộc giới tính + sức chứa.
+- **Hóa đơn & Thanh toán** — Tính tiền điện, nước, phòng theo chỉ số thực tế; theo dõi trạng thái thanh toán.
+- **Cơ sở vật chất** — Ghi nhận báo hỏng và lịch sử bảo trì từng thiết bị.
+- **Tìm kiếm & Lọc** — Tìm kiếm nhanh theo mã sinh viên; lọc phòng theo đa tiêu chí.
+- **Báo cáo thống kê** — Tỷ lệ lấp đầy KTX và doanh thu theo tháng.
+
+## Kiến trúc & Thuật toán
+
+Chương trình tổ chức theo kiến trúc **4 tầng** (Data → Utils → Manager/Service → UI), áp dụng nguyên lý phân tách trách nhiệm (SoC). Toàn bộ thuật toán được tự cài đặt, không dùng hàm sắp xếp/tìm kiếm có sẵn:
+
+| Thuật toán | Ứng dụng | Độ phức tạp |
+|---|---|---|
+| Merge Sort | Sắp xếp sinh viên theo tên tiếng Việt | O(n log n) |
+| QuickSort | Chuẩn hóa danh sách theo mã sinh viên | O(n log n) |
+| Binary Search | Tra cứu sinh viên theo mã định danh | O(log n) |
+| Hash Table (Linear Probing) | Tìm kiếm tức thì theo mã sinh viên | O(1) |
+
+## Cài đặt & Chạy chương trình
+
+**Yêu cầu:** Python 3.8+
+
+```bash
+# Clone repository
+git clone https://github.com/latdat/mi3310_ktlt_ktx.git
+cd mi3310_ktlt_ktx
+
+# Chạy chương trình
+python main.py
+```
+
+> **Windows CMD:** Nếu tiếng Việt bị lỗi font, chạy `chcp 65001` trước.  
+> **macOS/Linux:** Dùng `python3 main.py` nếu cần.
+
+## Công nghệ sử dụng
+
+- **Ngôn ngữ:** Python 3
+- **Lưu trữ:** JSON (không dùng database)
+- **Giao diện:** CLI (Command Line Interface)
+
+## Thành viên nhóm
+
+| Họ và tên | MSSV |
+|---|---|
+| Phạm Hồng Phúc | 202418963 |
+| Nguyễn Phúc Vinh | 202419019 |
+| Trần Khánh Toàn | 202418995 |
