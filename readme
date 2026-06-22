@@ -31,8 +31,7 @@ Chương trình tổ chức theo kiến trúc **4 tầng** (Data → Utils → M
 **Yêu cầu:** Python 3.8+
 
 ```bash
-# Clone repository
-git clone https://github.com/latdat/mi3310_ktlt_ktx.git
+https://github.com/Phuc-deptrai2007/mi3310_ktlt_ktx
 cd mi3310_ktlt_ktx
 
 # Chạy chương trình
